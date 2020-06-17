@@ -20,7 +20,7 @@ module.exports = {
     historyApiFallback: true,
     disableHostCheck: true,
     headers: {
-      "Access-Contrl-Allow-Origin": "*"
+      "Access-Control-Allow-Origin": "*"
     },
     https: false
   },
@@ -35,7 +35,7 @@ module.exports = {
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        use: ["babel-loader"]
+        use: ["babel-loader", "eslint-loader"]
       },
       {
         test: /(\.css)$/,
