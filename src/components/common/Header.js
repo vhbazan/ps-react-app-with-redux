@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import Homepage from "../home/HomePage";
 import AboutPage from "../about/AboutPage";
-import CoursePage from "../courses/CoursePage";
+import CoursePage from "../courses/CoursesPage";
 
 const Header = () => {
   const activeStyle = {
